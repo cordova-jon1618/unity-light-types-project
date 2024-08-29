@@ -15,12 +15,6 @@ In this project, I created and explored different lighting scenes using Unity, i
 
 --------------
 
-## Built by Jonathan Cordova
-
-Jonathan Cordova [@cordova-jon1618] - https://github.com/cordova-jon1618
-
---------------
-
 ## Introduction & Objective:
 
 The purpose of this report is to provide an overview of different light types, discuss their characteristics, and explain why and where they are best suited for use. In this assignment I created six scenes to depict the six distinct light types: Point Lights, Spot Lights, Directional Lights, Area Lights, Emissive Materials, and Ambient Light in order to demonstrate the practical application of these light types. This report will also talk about the challenges faced during my implementation, the lessons learned, and a walkthrough of each scene.
