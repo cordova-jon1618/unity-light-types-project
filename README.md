@@ -1,4 +1,11 @@
 # Unity Light Types Project
+
+--------------
+
+## Built by Jonathan Cordova
+
+Jonathan Cordova [@cordova-jon1618] - https://github.com/cordova-jon1618
+
 --------------
 
 ## Project Summary:
