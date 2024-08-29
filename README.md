@@ -2,42 +2,49 @@
 --------------
 
 ## Project Summary:
---------------
 
 Light Type Unity Project for my Advanced Computer Graphics Course. 
 In this project, I created and explored different lighting scenes using Unity, including Point Lights, Spot Lights, Directional Lights, Area Lights, Emissive Materials, and Ambient Light. Through this work, I gained hands-on experience in selecting the right light type for various scenarios, balancing creative vision with technical considerations like lightmapping and baked lighting. This project also deepened my understanding of the differences between real-time and baked lighting, enhancing my ability to optimize visual quality and resource efficiency in static and dynamic scenes.
+
+--------------
 
 ## Built by Jonathan Cordova
 
 Jonathan Cordova [@cordova-jon1618] - https://github.com/cordova-jon1618
 
-## Assignment Name:
 --------------
+
+## Assignment Name:
 
 Unity Light Types Assignment
 
-## Introduction & Objective:
 --------------
+
+## Introduction & Objective:
 
 The purpose of this report is to provide an overview of different light types, discuss their characteristics, and explain why and where they are best suited for use. In this assignment I created six scenes to depict the six distinct light types: Point Lights, Spot Lights, Directional Lights, Area Lights, Emissive Materials, and Ambient Light in order to demonstrate the practical application of these light types. This report will also talk about the challenges faced during my implementation, the lessons learned, and a walkthrough of each scene.
 
-## Background:
 --------------
 
-Lighting in Unity plays an important role in enhancing the visual quality of any environment or scene. It sets the mood, emphasizes specific elements, and helps create a sense of depth and realism. By completing this assignment, I illustrated the practical application of how different light types can be used to achieve different effects. 
+## Background:
+
+Lighting in Unity plays an important role in enhancing the visual quality of any environment or scene. It sets the mood, emphasizes specific elements, and helps create a sense of depth and realism. By completing this assignment, I illustrated the practical application of how different light types can be used to achieve different effects.
+
+--------------
 
 ## Challenges faced during the implementation:
---------------
 
 The most challenging part of this assignment was trying to understand how baked lighting worked and why each time I changed parameters, the Unity system presented a warning regarding “UV overlapping”. Another challenge I encountered during this implementation was learning to balance the intensity and color of different light types to create my vision of a scene. I let my creativity run wild and am proud of my work. I ensured that the chosen light type complemented my creative vision. The main challenge was dealing with baked lighting and baked global illumination, particularly in the emissive material scene and the area light scene, which required an understanding of lightmapping and baked lighting in Unity.
 
-## Lessons learned:
 --------------
+
+## Lessons learned:
 
 This assignment provided me with a good understanding of the importance of choosing the right light type for a given scene. The need to choose the right lighting setups for each scene while maintaining a high creative vision was difficult, but essential to my learning. I enjoyed this assignment as it allowed me to experiment with different light types to achieve my desired vision. I developed a deeper understanding of lightmapping and baked lighting in Unity, which allowed for more efficient use of resources and improved visual quality in the emissive material and area light scenes. One of the great lessons I learned was the difference between real-time lighting and baked lighting, with real-time lighting working for objects and scenes that have movement, whereas baked lighting is excellent for static, unmoving scenes. Managing the trade-off between baking quality and baking time, especially for the area light scene and emissive material scene was a lesson in patience. 
 
-## Walkthrough of the program:
 --------------
+
+## Walkthrough of the program:
 
 Please find all scenes for the lighting types in the Scenes folder.
 
@@ -45,7 +52,6 @@ Please find all scenes for the lighting types in the Scenes folder.
 
 
 ## Point Lights - Film Awards Show Scene:
---------------
 
 ![image](https://github.com/user-attachments/assets/91d3781e-51bb-47a5-9e79-2d82c3db1af5)
 
@@ -59,7 +65,6 @@ I used multiple point lights to emit light uniformly in all directions. Point li
 
      
 ## Spot Lights - Street Road Scene:
---------------
 
 Spot lights emit a cone-shaped beam of light, allowing for focused illumination. They are commonly used in streetlights and headlights. In this scene, I used spotlights to mimic the streetlights' focused beams, casting shadows, and creating a dark dramatic atmosphere. I used the free asset from the Unity Store to obtain a streetlight and I added the spot lights to them.  I created a vehicle that is inspired by the “batmobile” from the trilogy films of the “The Dark Knight”. 
         
@@ -73,7 +78,6 @@ Spot lights emit a cone-shaped beam of light, allowing for focused illumination.
 
 
 ## Directional Lights - First Moon Landing Scene:
---------------
 
 Directional lights emit parallel light rays and are ideal for simulating sunlight or other distant light sources. In this moon landing scene, I used directional lights to simulate the star lights on the surface of the moon. My directional lights cast strong shadows and create a sense of depth on the lunar surface. I made the skylight appear as if it is nighttime to give this scene a sense of taking place on the lunar surface. 
      
@@ -87,7 +91,6 @@ Directional lights emit parallel light rays and are ideal for simulating sunligh
 
 
 ## Area Lights - Ancient Temple Scene:
---------------
 
 Area lights emit light from a flat, two-dimensional surface, resulting in soft, diffuse lighting. They are suitable for simulating light coming through windows or large openings. In this scene, I used area lights to simulate light coming in from the sun into an ancient temple. These area lights create a soft glow in the ancient temple, illuminating the ancient relics and the ancient robot found in the temple’s altar.
 
@@ -101,7 +104,6 @@ Area lights emit light from a flat, two-dimensional surface, resulting in soft, 
 
 
 ## Emissive Materials - Light Art Gallery Museum Scene:
---------------
 
 This is one of the scenes I am most proud of. I used emissive material and added it to objects to emit light from their surface. In this scene, I used emissive materials to create art pieces, making them the primary light source and creating the perfect art gallery and museum scene.
 
@@ -115,7 +117,6 @@ This is one of the scenes I am most proud of. I used emissive material and added
 
 
 ## Ambient Light – “2001 Space Odyssey” Monolith Scene:
---------------
 
 Ambient light is a global light source that provides soft, uniform illumination. In this scene, I used ambient light to create a hot sun desert scene. I wanted to create a mysterious atmosphere surrounding the monolith (inspired by the film “2001 Space Odyssey” and I added a UFO that I created using two sphere objects. The ambient lighting ensures that this scene feels straight out of a sci-fi film.
 
@@ -128,8 +129,9 @@ Ambient light is a global light source that provides soft, uniform illumination.
 ![image](https://github.com/user-attachments/assets/1f6e3955-2004-4d5c-97d2-40b214033481)
 
 
-## Conclusion:
 --------------
+
+## Conclusion:
 
 Overall, I enjoyed this assignment the most because it gave me the creative freedom and ability to be an artist using Unity. The crossroads between art and technology is rarely experienced by Computer Science students. However, this assignment allowed me to be creative and let out my creative spirit. Moreover, by understanding and selecting the appropriate light type for each, I not only learned a lot, but learned object modeling and other creative skills with Unity. The six scenes demonstrated in my report serve as an example of the potential and effectiveness of different light types. Through experimentation, adaptation, and creativity, I overcame the challenges faced during implementation and successfully utilized these light types to create a story within each scene. I really enjoyed this assignment!
 
